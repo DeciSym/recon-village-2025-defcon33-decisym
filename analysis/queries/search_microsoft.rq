@@ -1,0 +1,10 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT ?company ?label ?industry
+WHERE {
+  ?company rdfs:label ?label .
+  FILTER(CONTAINS(LCASE(?label), "microsoft"))
+  OPTIONAL { ?company wdt:P452 ?industry }
+}
+LIMIT 10

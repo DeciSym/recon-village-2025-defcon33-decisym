@@ -1,0 +1,23 @@
+# Example configuration for chat completion
+api_url: "http://localhost:8000/v1"
+model: "Qwen/Qwen3-30B-A3B-Instruct-2507"
+
+# Chat format with system and user messages
+messages:
+  - role: "system"
+    content: "You are a helpful assistant that extracts information from conference websites."
+  - role: "user"
+    content: "Look through the content and extract all speaker names as a JSON array. Include only the speakers' names, not their titles or affiliations."
+
+# Generation parameters
+max_tokens: 4096
+temperature: 0.1
+top_p: 0.9
+
+# Optional parameters
+# api_key: "your-api-key-here"
+# seed: 42  # For reproducible outputs
+# n: 1  # Number of completions to generate
+
+# Request timeout
+timeout_seconds: 600

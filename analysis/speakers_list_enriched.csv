@@ -1,0 +1,27 @@
+"speaker","company","role","co_industry","co_type","co_market_cap_busd","co_revenue_busd","co_country","co_state","co_city","co_founding_year","co_employees","co_age"
+"Ankit Gupta","Exeter Finance LLC","Senior Security Engineer","US Automobile Finance","private",NA,NA,"USA","Texas","Irving",2006,1700,19
+"Apurv Singh Gautam","Cyble","Sr. Threat Research Analyst","Cybersecurity Threat Intelligence","private",NA,NA,"USA","California","Cupertino",2019,250,6
+"Charles Waterhouse","Synack","Sr Security Analyst","Cybersecurity","private",NA,NA,"USA","California","Menlo Park",2013,253,12
+"Daniel Schwalbe","DomainTools","Head of Investigations","Cybersecurity","private",NA,NA,"USA","Washington","Seattle",2002,140,23
+"Donald Pellegrino","DeciSym.AI","CEO & Founder","Cybersecurity and Data Intelligence","private",NA,NA,"USA","Pennsylvania","Fort Washington",2022,7,3
+"Evgueni Erchov","Cypfer","Sr Director of Research & Threat Intel","Cybersecurity and Incident Response","private",NA,NA,"Canada","Ontario","Toronto",2019,200,6
+"Jeff Foley","OWASP Foundation","Amass Project Leader","Cybersecurity","nonprofit",NA,NA,"USA","Delaware","Wilmington",2004,8,21
+"John Dilgen","ReliaQuest","Threat Intel Analyst","Cybersecurity","private",NA,NA,"USA","Florida","Tampa",2007,800,18
+"Kaloyan Ivanov","GroupSense","Threat Intelligence Research Manager","Cybersecurity and Reconnaissance","private",NA,NA,"USA","Virginia","Arlington",2014,39,11
+"Kevin Dela Rosa","Cloudglue","Co-founder & CTO","Video Knowledge","private",NA,NA,"USA","California","San Francisco",2024,3,1
+"Master Chen","NULL","Student of LIfe. Teacher of Shaolin.","NULL","NULL",NA,NA,"NULL","NULL","NULL",NA,NA,NA
+"Michael Portera","Sequoia Inc.","VP Cyber Solutions","Software and Cloud Solutions","private",NA,0.011,"USA","Virginia","Herndon",2012,101,13
+"Mohamed Nabeel","Palo Alto Networks","Principal Security Researcher","Cybersecurity","public",113,9,"USA","California","Santa Clara",2005,15866,20
+"Muslim Koser","Fortinet","Vice President , Engineering EASM","Cybersecurity","public",74,6.142,"USA","California","Sunnyvale",2000,14138,25
+"Nishant Sharma","SquareX","Head of Cybersecurity Research","Cybersecurity","private",NA,NA,"USA","California","Palo Alto",2020,48,5
+"Ram Ganesh","NULL","NULL","NULL","NULL",NA,NA,"NULL","NULL","NULL",NA,NA,NA
+"Reuel Magistrado","VicOne","Auto Threat Researcher","Vehicle Cybersecurity","private",NA,NA,"Japan","Tokyo","Tokyo",2022,65,3
+"Ryan Bonner","ProCircular","Senior Security Consultant","Cybersecurity Consulting","private",NA,NA,"USA","Iowa","Coralville",2016,46,9
+"Sean Jones","GroupSense","Sr. Manager of Threat Intelligence","Cybersecurity and Reconnaissance","private",NA,NA,"USA","Virginia","Arlington",2014,39,11
+"Shilpi Mittal","Tyson Foods Inc.","Cybersecurity Professional","Agriculture","public",20,54,"USA","Arkansas","Springdale",1935,139000,90
+"Shourya Pratap Singh","SquareX","Principal Software Engineer","Cybersecurity","private",NA,NA,"USA","California","Palo Alto",2020,48,5
+"Sinwindie","OSINT Dojo","Sensei","Open Source Intelligence","nonprofit",NA,NA,"Virtual","Virtual","Virtual",2020,1,5
+"Vladimir Tokarev","Microsoft","Senior Security Researcher","Software","public",3920,281.724,"USA","Washington","Redmond",1975,228000,50
+"Zach Malinich","Professional Lurker","NULL","NULL","NULL",NA,NA,"NULL","NULL","NULL",NA,NA,NA
+"Zoey Selman","Recorded Future","Threat Intelligence Analyst","Cybersecurity and Threat Intelligence","private",NA,NA,"USA","Massachusetts","Somerville",2009,1000,16
+"Özgün Kültekin","Trendyol Group","Offensive Security Engineer","Ecommerce","private",NA,NA,"Turkiye","Istanbul","Istanbul",2010,10000,15

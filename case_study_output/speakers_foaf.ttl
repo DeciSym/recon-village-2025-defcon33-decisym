@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="">
+    <dc:source>DEFCON 33 Recon Village</dc:source>
+    <dc:date>2025-08-05</dc:date>
+    <dc:description>Speaker information extracted from conference website</dc:description>
+  </rdf:Description>
+
+  <!-- Organizations -->
+  <foaf:Organization rdf:about="#Fortinet">
+    <foaf:name>Fortinet</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Cloudglue">
+    <foaf:name>Cloudglue</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Cyble">
+    <foaf:name>Cyble</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Microsoft">
+    <foaf:name>Microsoft</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#DomainTools">
+    <foaf:name>DomainTools</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Palo_Alto_Networks">
+    <foaf:name>Palo Alto Networks</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#ProCircular">
+    <foaf:name>ProCircular</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#OWASP_Foundation">
+    <foaf:name>OWASP Foundation</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Cypfer">
+    <foaf:name>Cypfer</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Exeter_Finance_LLC">
+    <foaf:name>Exeter Finance LLC</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Tyson_Foods_Inc.">
+    <foaf:name>Tyson Foods Inc.</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Recorded_Future">
+    <foaf:name>Recorded Future</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Synack">
+    <foaf:name>Synack</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#VicOne">
+    <foaf:name>VicOne</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Sequoia">
+    <foaf:name>Sequoia</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#SquareX">
+    <foaf:name>SquareX</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#DeciSym.AI">
+    <foaf:name>DeciSym.AI</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#GroupSense">
+    <foaf:name>GroupSense</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+  <foaf:Organization rdf:about="#Trendyol_Group">
+    <foaf:name>Trendyol Group</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+
+  <!-- Persons and Memberships -->
+  <foaf:Person rdf:about="#Muslim_Koser">
+    <foaf:name>Muslim Koser</foaf:name>
+    <foaf:firstName>Muslim</foaf:firstName>
+    <foaf:lastName>Koser</foaf:lastName>
+    <org:holds rdf:resource="#Muslim_Koser_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Muslim_Koser_membership">
+    <org:member rdf:resource="#Muslim_Koser"/>
+    <org:organization rdf:resource="#Fortinet"/>
+    <org:role>Vice President , Engineering EASM</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Zach_Malinich">
+    <foaf:name>Zach Malinich</foaf:name>
+    <foaf:firstName>Zach</foaf:firstName>
+    <foaf:lastName>Malinich</foaf:lastName>
+    <org:holds rdf:resource="#Zach_Malinich_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Zach_Malinich_membership">
+    <org:member rdf:resource="#Zach_Malinich"/>
+    <org:organization rdf:resource="#Zach_Malinich_org"/>
+    <org:role>Professional Lurker</org:role>
+  </org:Membership>
+  <foaf:Organization rdf:about="#Zach_Malinich_org">
+    <foaf:name>Professional Lurker</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+
+  <foaf:Person rdf:about="#Kevin_Dela_Rosa">
+    <foaf:name>Kevin Dela Rosa</foaf:name>
+    <foaf:firstName>Kevin</foaf:firstName>
+    <foaf:lastName>Dela Rosa</foaf:lastName>
+    <org:holds rdf:resource="#Kevin_Dela_Rosa_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Kevin_Dela_Rosa_membership">
+    <org:member rdf:resource="#Kevin_Dela_Rosa"/>
+    <org:organization rdf:resource="#Cloudglue"/>
+    <org:role>Co-founder &amp; CTO</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Sinwindie">
+    <foaf:name>Sinwindie</foaf:name>
+    <foaf:firstName>Sinwindie</foaf:firstName>
+    <foaf:lastName/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="#Apurv_Singh_Gautam">
+    <foaf:name>Apurv Singh Gautam</foaf:name>
+    <foaf:firstName>Apurv</foaf:firstName>
+    <foaf:lastName>Singh Gautam</foaf:lastName>
+    <org:holds rdf:resource="#Apurv_Singh_Gautam_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Apurv_Singh_Gautam_membership">
+    <org:member rdf:resource="#Apurv_Singh_Gautam"/>
+    <org:organization rdf:resource="#Cyble"/>
+    <org:role>Sr. Threat Research Analyst</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Vladimir_Tokarev">
+    <foaf:name>Vladimir Tokarev</foaf:name>
+    <foaf:firstName>Vladimir</foaf:firstName>
+    <foaf:lastName>Tokarev</foaf:lastName>
+    <org:holds rdf:resource="#Vladimir_Tokarev_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Vladimir_Tokarev_membership">
+    <org:member rdf:resource="#Vladimir_Tokarev"/>
+    <org:organization rdf:resource="#Microsoft"/>
+    <org:role>Senior Security Researcher</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Daniel_Schwalbe">
+    <foaf:name>Daniel Schwalbe</foaf:name>
+    <foaf:firstName>Daniel</foaf:firstName>
+    <foaf:lastName>Schwalbe</foaf:lastName>
+    <org:holds rdf:resource="#Daniel_Schwalbe_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Daniel_Schwalbe_membership">
+    <org:member rdf:resource="#Daniel_Schwalbe"/>
+    <org:organization rdf:resource="#DomainTools"/>
+    <org:role>Head of Investigations</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Ram_Ganesh">
+    <foaf:name>Ram Ganesh</foaf:name>
+    <foaf:firstName>Ram</foaf:firstName>
+    <foaf:lastName>Ganesh</foaf:lastName>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="#Master_Chen">
+    <foaf:name>Master Chen</foaf:name>
+    <foaf:firstName>Master</foaf:firstName>
+    <foaf:lastName>Chen</foaf:lastName>
+    <org:holds rdf:resource="#Master_Chen_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Master_Chen_membership">
+    <org:member rdf:resource="#Master_Chen"/>
+    <org:organization rdf:resource="#Master_Chen_org"/>
+    <org:role>Student of LIfe. Teacher of Shaolin.</org:role>
+  </org:Membership>
+  <foaf:Organization rdf:about="#Master_Chen_org">
+    <foaf:name>Student of LIfe. Teacher of Shaolin.</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+
+  <foaf:Person rdf:about="#Mohamed_Nabeel">
+    <foaf:name>Mohamed Nabeel</foaf:name>
+    <foaf:firstName>Mohamed</foaf:firstName>
+    <foaf:lastName>Nabeel</foaf:lastName>
+    <org:holds rdf:resource="#Mohamed_Nabeel_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Mohamed_Nabeel_membership">
+    <org:member rdf:resource="#Mohamed_Nabeel"/>
+    <org:organization rdf:resource="#Palo_Alto_Networks"/>
+    <org:role>Principal Security Researcher</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Ryan_Bonner">
+    <foaf:name>Ryan Bonner</foaf:name>
+    <foaf:firstName>Ryan</foaf:firstName>
+    <foaf:lastName>Bonner</foaf:lastName>
+    <org:holds rdf:resource="#Ryan_Bonner_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Ryan_Bonner_membership">
+    <org:member rdf:resource="#Ryan_Bonner"/>
+    <org:organization rdf:resource="#ProCircular"/>
+    <org:role>Senior Security Consultant</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Jeff_Foley">
+    <foaf:name>Jeff Foley</foaf:name>
+    <foaf:firstName>Jeff</foaf:firstName>
+    <foaf:lastName>Foley</foaf:lastName>
+    <org:holds rdf:resource="#Jeff_Foley_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Jeff_Foley_membership">
+    <org:member rdf:resource="#Jeff_Foley"/>
+    <org:organization rdf:resource="#OWASP_Foundation"/>
+    <org:role>Amass Project Leader</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Evgueni_Erchov">
+    <foaf:name>Evgueni Erchov</foaf:name>
+    <foaf:firstName>Evgueni</foaf:firstName>
+    <foaf:lastName>Erchov</foaf:lastName>
+    <org:holds rdf:resource="#Evgueni_Erchov_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Evgueni_Erchov_membership">
+    <org:member rdf:resource="#Evgueni_Erchov"/>
+    <org:organization rdf:resource="#Cypfer"/>
+    <org:role>Sr Director of Research &amp; Threat Intel</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Ankit_Gupta">
+    <foaf:name>Ankit Gupta</foaf:name>
+    <foaf:firstName>Ankit</foaf:firstName>
+    <foaf:lastName>Gupta</foaf:lastName>
+    <org:holds rdf:resource="#Ankit_Gupta_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Ankit_Gupta_membership">
+    <org:member rdf:resource="#Ankit_Gupta"/>
+    <org:organization rdf:resource="#Exeter_Finance_LLC"/>
+    <org:role>Senior Security Engineer</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Shilpi_Mittal">
+    <foaf:name>Shilpi Mittal</foaf:name>
+    <foaf:firstName>Shilpi</foaf:firstName>
+    <foaf:lastName>Mittal</foaf:lastName>
+    <org:holds rdf:resource="#Shilpi_Mittal_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Shilpi_Mittal_membership">
+    <org:member rdf:resource="#Shilpi_Mittal"/>
+    <org:organization rdf:resource="#Tyson_Foods_Inc."/>
+    <org:role/>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Zoey_Selman">
+    <foaf:name>Zoey Selman</foaf:name>
+    <foaf:firstName>Zoey</foaf:firstName>
+    <foaf:lastName>Selman</foaf:lastName>
+    <org:holds rdf:resource="#Zoey_Selman_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Zoey_Selman_membership">
+    <org:member rdf:resource="#Zoey_Selman"/>
+    <org:organization rdf:resource="#Recorded_Future"/>
+    <org:role>Threat Intelligence Analyst</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Rohit_Grover">
+    <foaf:name>Rohit Grover</foaf:name>
+    <foaf:firstName>Rohit</foaf:firstName>
+    <foaf:lastName>Grover</foaf:lastName>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="#Charles_Waterhouse">
+    <foaf:name>Charles Waterhouse</foaf:name>
+    <foaf:firstName>Charles</foaf:firstName>
+    <foaf:lastName>Waterhouse</foaf:lastName>
+    <org:holds rdf:resource="#Charles_Waterhouse_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Charles_Waterhouse_membership">
+    <org:member rdf:resource="#Charles_Waterhouse"/>
+    <org:organization rdf:resource="#Synack"/>
+    <org:role>Sr Security Analyst</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Kumar_Ashwin">
+    <foaf:name>Kumar Ashwin</foaf:name>
+    <foaf:firstName>Kumar</foaf:firstName>
+    <foaf:lastName>Ashwin</foaf:lastName>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="#Reuel_Magistrado">
+    <foaf:name>Reuel Magistrado</foaf:name>
+    <foaf:firstName>Reuel</foaf:firstName>
+    <foaf:lastName>Magistrado</foaf:lastName>
+    <org:holds rdf:resource="#Reuel_Magistrado_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Reuel_Magistrado_membership">
+    <org:member rdf:resource="#Reuel_Magistrado"/>
+    <org:organization rdf:resource="#VicOne"/>
+    <org:role>Auto Threat Researcher</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Michael_Portera">
+    <foaf:name>Michael Portera</foaf:name>
+    <foaf:firstName>Michael</foaf:firstName>
+    <foaf:lastName>Portera</foaf:lastName>
+    <org:holds rdf:resource="#Michael_Portera_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Michael_Portera_membership">
+    <org:member rdf:resource="#Michael_Portera"/>
+    <org:organization rdf:resource="#Sequoia"/>
+    <org:role>VP Cyber Solutions</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Nishant_Sharma">
+    <foaf:name>Nishant Sharma</foaf:name>
+    <foaf:firstName>Nishant</foaf:firstName>
+    <foaf:lastName>Sharma</foaf:lastName>
+    <org:holds rdf:resource="#Nishant_Sharma_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Nishant_Sharma_membership">
+    <org:member rdf:resource="#Nishant_Sharma"/>
+    <org:organization rdf:resource="#SquareX"/>
+    <org:role>Head of Cybersecurity Research</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Shourya_Pratap_Singh">
+    <foaf:name>Shourya Pratap Singh</foaf:name>
+    <foaf:firstName>Shourya</foaf:firstName>
+    <foaf:lastName>Pratap Singh</foaf:lastName>
+    <org:holds rdf:resource="#Shourya_Pratap_Singh_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Shourya_Pratap_Singh_membership">
+    <org:member rdf:resource="#Shourya_Pratap_Singh"/>
+    <org:organization rdf:resource="#SquareX"/>
+    <org:role>Principal Software Engineer</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Donald_Pellegrino">
+    <foaf:name>Donald Pellegrino</foaf:name>
+    <foaf:firstName>Donald</foaf:firstName>
+    <foaf:lastName>Pellegrino</foaf:lastName>
+    <org:holds rdf:resource="#Donald_Pellegrino_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Donald_Pellegrino_membership">
+    <org:member rdf:resource="#Donald_Pellegrino"/>
+    <org:organization rdf:resource="#DeciSym.AI"/>
+    <org:role>CEO &amp; Founder</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#John_Dilgen">
+    <foaf:name>John Dilgen</foaf:name>
+    <foaf:firstName>John</foaf:firstName>
+    <foaf:lastName>Dilgen</foaf:lastName>
+    <org:holds rdf:resource="#John_Dilgen_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#John_Dilgen_membership">
+    <org:member rdf:resource="#John_Dilgen"/>
+    <org:organization rdf:resource="#John_Dilgen_org"/>
+    <org:role>Threat Intel Analyst</org:role>
+  </org:Membership>
+  <foaf:Organization rdf:about="#John_Dilgen_org">
+    <foaf:name>Threat Intel Analyst</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </foaf:Organization>
+
+  <foaf:Person rdf:about="#Sean_Jones">
+    <foaf:name>Sean Jones</foaf:name>
+    <foaf:firstName>Sean</foaf:firstName>
+    <foaf:lastName>Jones</foaf:lastName>
+    <org:holds rdf:resource="#Sean_Jones_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Sean_Jones_membership">
+    <org:member rdf:resource="#Sean_Jones"/>
+    <org:organization rdf:resource="#GroupSense"/>
+    <org:role>Sr. Manager of Threat Intelligence</org:role>
+  </org:Membership>
+
+  <foaf:Person rdf:about="#Kaloyan_Ivanov">
+    <foaf:name>Kaloyan Ivanov</foaf:name>
+    <foaf:firstName>Kaloyan</foaf:firstName>
+    <foaf:lastName>Ivanov</foaf:lastName>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="#Özgün_Kültekin">
+    <foaf:name>Özgün Kültekin</foaf:name>
+    <foaf:firstName>Özgün</foaf:firstName>
+    <foaf:lastName>Kültekin</foaf:lastName>
+    <org:holds rdf:resource="#Özgün_Kültekin_membership"/>
+  </foaf:Person>
+  <org:Membership rdf:about="#Özgün_Kültekin_membership">
+    <org:member rdf:resource="#Özgün_Kültekin"/>
+    <org:organization rdf:resource="#Trendyol_Group"/>
+    <org:role>Offensive Security Engineer</org:role>
+  </org:Membership>
+
+</rdf:RDF>

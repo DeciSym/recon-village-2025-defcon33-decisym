@@ -1,0 +1,56 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?speakerName ?role ?companyName ?foundingDate ?companyAge ?industryLabel
+WHERE {
+  # Get speaker information
+  ?person a foaf:Person ;
+          foaf:name ?speakerName .
+  
+  # Get company and role
+  OPTIONAL {
+    ?person org:holds ?membership .
+    ?membership org:organization ?org ;
+                org:role ?role .
+    ?org foaf:name ?companyName .
+  }
+  
+  OPTIONAL {
+    ?person org:memberOf ?org2 .
+    ?org2 foaf:name ?companyName .
+    FILTER(!BOUND(?role))
+  }
+  
+  # Match with Wikidata
+  OPTIONAL {
+    ?wikidataCompany rdfs:label ?wikidataLabel .
+    
+    FILTER(
+      LCASE(STR(?wikidataLabel)) = LCASE(STR(?companyName)) ||
+      (LCASE(STR(?companyName)) = "owasp foundation" && LCASE(STR(?wikidataLabel)) = "owasp") ||
+      (LCASE(STR(?companyName)) = "tyson foods inc." && CONTAINS(LCASE(STR(?wikidataLabel)), "tyson foods"))
+    )
+    
+    OPTIONAL { ?wikidataCompany wdt:P571 ?foundingDate }
+    OPTIONAL { ?wikidataCompany wdt:P452 ?industry }
+    
+    BIND(YEAR(NOW()) - YEAR(?foundingDate) AS ?companyAge)
+    
+    # Map industry codes to labels
+    BIND(
+      IF(?industry = wd:Q3510521, "Computer Security",
+      IF(?industry = wd:Q21157865, "Cybersecurity", 
+      IF(?industry = wd:Q880371, "Computer Network",
+      IF(?industry = wd:Q638608, "Cloud Computing",
+      IF(?industry = wd:Q484847, "Cryptocurrency",
+      IF(?industry = wd:Q97466080, "Information Technology",
+      IF(?industry = wd:Q11451, "Agriculture", "Other")))))))
+      AS ?industryLabel
+    )
+  }
+}
+ORDER BY DESC(?foundingDate) ?speakerName

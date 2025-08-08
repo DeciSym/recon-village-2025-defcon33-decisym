@@ -1,0 +1,23 @@
+Download content from URLs through Tor for privacy
+
+Usage: decisym_defcon33 collect [OPTIONS] <URL>
+
+Arguments:
+  <URL>  URL to download
+
+Options:
+  -o, --output <FILE>            Write output to FILE instead of using the server-provided name
+  -O <FILE>                      Output file name (alternative to --output)
+  -A, --user-agent <STRING>      Set User-Agent header (default: Chrome)
+  -q, --quiet                    Enable quiet mode (suppress non-error messages)
+  -v, --verbose                  Enable verbose output
+  -w, --wait <SECONDS>           Wait SECONDS between requests (rate limiting) [default: 1]
+      --max-redirect <NUM>       Maximum number of redirects to follow [default: 5]
+  -k, --insecure                 Accept invalid TLS certificates (insecure)
+      --buffer-size <BYTES>      Download buffer size in bytes [default: 8192]
+      --default-filename <NAME>  Default filename for URLs without a filename [default: index.html]
+      --browser                  Download using headless browser for JavaScript rendering
+      --page-wait <SECONDS>      Wait time in seconds for page to fully load (browser mode only) [default: 5]
+      --no-iframes               Skip downloading iframe contents separately
+      --browser-actions <JSON>   JSON array of actions: [{"action": "click", "selector": "button:contains('Saturday')", "wait": 3}]
+  -h, --help                     Print help

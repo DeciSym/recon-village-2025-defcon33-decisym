@@ -1,0 +1,8 @@
+# Rust build artifacts
+/target/
+
+# Cargo local configuration
+/.cargo/
+
+# Editor backup files
+*~

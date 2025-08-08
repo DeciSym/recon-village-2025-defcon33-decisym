@@ -1,0 +1,22 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT ?company ?label ?industry
+WHERE {
+  ?company rdfs:label ?label .
+  ?company wdt:P452 ?industry .
+  
+  # Filter for companies mentioned by speakers
+  FILTER(
+    CONTAINS(LCASE(?label), "microsoft") ||
+    CONTAINS(LCASE(?label), "fortinet") ||
+    CONTAINS(LCASE(?label), "palo alto") ||
+    CONTAINS(LCASE(?label), "cloudflare") ||
+    CONTAINS(LCASE(?label), "recorded future") ||
+    CONTAINS(LCASE(?label), "synack") ||
+    CONTAINS(LCASE(?label), "domaintools") ||
+    CONTAINS(LCASE(?label), "cyble") ||
+    CONTAINS(LCASE(?label), "owasp")
+  )
+}
+ORDER BY ?label

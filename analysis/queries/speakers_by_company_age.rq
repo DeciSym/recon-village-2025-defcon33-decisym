@@ -1,0 +1,45 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?speakerName ?companyName ?wikidataCompany ?foundingDate ?companyAge ?role
+WHERE {
+  # Get speaker information from the speakers HDT
+  ?person a foaf:Person ;
+          foaf:name ?speakerName .
+  
+  # Get company affiliation and role
+  OPTIONAL {
+    ?person org:holds ?membership .
+    ?membership org:organization ?org ;
+                org:role ?role .
+    ?org foaf:name ?companyName .
+  }
+  
+  OPTIONAL {
+    ?person org:memberOf ?org2 .
+    ?org2 foaf:name ?companyName .
+    FILTER(!BOUND(?role))  # Only if we didn't get role from membership
+  }
+  
+  # Match with Wikidata companies
+  OPTIONAL {
+    ?wikidataCompany rdfs:label ?wikidataLabel ;
+                     wdt:P571 ?foundingDate .
+    
+    # Case-insensitive matching of company names
+    FILTER(
+      LCASE(STR(?wikidataLabel)) = LCASE(STR(?companyName)) ||
+      # Handle common variations
+      (LCASE(STR(?companyName)) = "owasp foundation" && LCASE(STR(?wikidataLabel)) = "owasp") ||
+      (LCASE(STR(?companyName)) = "tyson foods inc." && LCASE(STR(?wikidataLabel)) = "tyson foods") ||
+      (LCASE(STR(?companyName)) = "exeter finance llc" && LCASE(STR(?wikidataLabel)) = "exeter finance")
+    )
+    
+    # Calculate company age in years
+    BIND(YEAR(NOW()) - YEAR(?foundingDate) AS ?companyAge)
+  }
+}
+ORDER BY DESC(?foundingDate) ?speakerName

@@ -1,0 +1,27 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?company ?wikidataEntity
+WHERE {
+  # Get companies from speakers file
+  {
+    ?person a foaf:Person .
+    ?person org:holds ?membership .
+    ?membership org:organization ?org .
+    ?org foaf:name ?company .
+  }
+  UNION
+  {
+    ?person a foaf:Person .
+    ?person org:memberOf ?org .
+    ?org foaf:name ?company .
+  }
+  
+  # Try to match with Wikidata companies
+  OPTIONAL {
+    ?wikidataEntity rdfs:label ?wikidataLabel .
+    FILTER(LCASE(STR(?wikidataLabel)) = LCASE(STR(?company)))
+  }
+}
+ORDER BY ?company

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Muslim Koser",
+    "affiliation": "Fortinet",
+    "role": "Vice President , Engineering EASM"
+  },
+  {
+    "name": "Zach Malinich",
+    "affiliation": null,
+    "role": "Professional Lurker"
+  },
+  {
+    "name": "Kevin Dela Rosa",
+    "affiliation": "Cloudglue",
+    "role": "Co-founder & CTO"
+  },
+  {
+    "name": "Sinwindie",
+    "affiliation": null,
+    "role": null
+  },
+  {
+    "name": "Apurv Singh Gautam",
+    "affiliation": "Cyble",
+    "role": "Sr. Threat Research Analyst"
+  },
+  {
+    "name": "Vladimir Tokarev",
+    "affiliation": "Microsoft",
+    "role": "Senior Security Researcher"
+  },
+  {
+    "name": "Daniel Schwalbe",
+    "affiliation": "DomainTools",
+    "role": "Head of Investigations"
+  },
+  {
+    "name": "Ram Ganesh",
+    "affiliation": null,
+    "role": null
+  },
+  {
+    "name": "Master Chen",
+    "affiliation": null,
+    "role": "Student of LIfe. Teacher of Shaolin."
+  },
+  {
+    "name": "Mohamed Nabeel",
+    "affiliation": "Palo Alto Networks",
+    "role": "Principal Security Researcher"
+  },
+  {
+    "name": "Ryan Bonner",
+    "affiliation": "ProCircular",
+    "role": "Senior Security Consultant"
+  },
+  {
+    "name": "Jeff Foley",
+    "affiliation": "OWASP Foundation",
+    "role": "Amass Project Leader"
+  },
+  {
+    "name": "Evgueni Erchov",
+    "affiliation": "Cypfer",
+    "role": "Sr Director of Research & Threat Intel"
+  },
+  {
+    "name": "Ankit Gupta",
+    "affiliation": "Exeter Finance LLC",
+    "role": "Senior Security Engineer"
+  },
+  {
+    "name": "Shilpi Mittal",
+    "affiliation": "Tyson Foods Inc.",
+    "role": null
+  },
+  {
+    "name": "Zoey Selman",
+    "affiliation": "Recorded Future",
+    "role": "Threat Intelligence Analyst"
+  },
+  {
+    "name": "Rohit Grover",
+    "affiliation": null,
+    "role": null
+  },
+  {
+    "name": "Charles Waterhouse",
+    "affiliation": "Synack",
+    "role": "Sr Security Analyst"
+  },
+  {
+    "name": "Kumar Ashwin",
+    "affiliation": null,
+    "role": null
+  },
+  {
+    "name": "Reuel Magistrado",
+    "affiliation": "VicOne",
+    "role": "Auto Threat Researcher"
+  },
+  {
+    "name": "Michael Portera",
+    "affiliation": "Sequoia",
+    "role": "VP Cyber Solutions"
+  },
+  {
+    "name": "Nishant Sharma",
+    "affiliation": "SquareX",
+    "role": "Head of Cybersecurity Research"
+  },
+  {
+    "name": "Shourya Pratap Singh",
+    "affiliation": "SquareX",
+    "role": "Principal Software Engineer"
+  },
+  {
+    "name": "Donald Pellegrino",
+    "affiliation": "DeciSym.AI",
+    "role": "CEO & Founder"
+  },
+  {
+    "name": "John Dilgen",
+    "affiliation": null,
+    "role": "Threat Intel Analyst"
+  },
+  {
+    "name": "Sean Jones",
+    "affiliation": "GroupSense",
+    "role": "Sr. Manager of Threat Intelligence"
+  },
+  {
+    "name": "Kaloyan Ivanov",
+    "affiliation": null,
+    "role": null
+  },
+  {
+    "name": "Özgün Kültekin",
+    "affiliation": "Trendyol Group",
+    "role": "Offensive Security Engineer"
+  }
+]

@@ -1,0 +1,23 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?industry ?industryLabel (COUNT(DISTINCT ?company) as ?count)
+WHERE {
+  ?company wdt:P452 ?industry .
+  ?company rdfs:label ?companyLabel .
+  
+  OPTIONAL { ?industry rdfs:label ?industryLabel }
+  
+  VALUES ?industry { 
+    wd:Q3510521   # computer security
+    wd:Q21157865  # cybersecurity
+    wd:Q880371    # computer network
+    wd:Q638608    # cloud computing
+    wd:Q484847    # cryptocurrency
+    wd:Q97466080  # information technology
+    wd:Q11451     # agriculture
+  }
+}
+GROUP BY ?industry ?industryLabel
+ORDER BY DESC(?count)

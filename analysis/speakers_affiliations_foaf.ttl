@@ -1,0 +1,449 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf>
+        dc:source       "DEFCON 33 Recon Village";
+        dc:date         "2025-08-05";
+        dc:description  "Speaker information extracted from conference website" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Fortinet>
+        rdf:type   foaf:Organization;
+        foaf:name  "Fortinet";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Cloudglue>
+        rdf:type   foaf:Organization;
+        foaf:name  "Cloudglue";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Cyble>
+        rdf:type   foaf:Organization;
+        foaf:name  "Cyble";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Microsoft>
+        rdf:type   foaf:Organization;
+        foaf:name  "Microsoft";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#DomainTools>
+        rdf:type   foaf:Organization;
+        foaf:name  "DomainTools";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Palo_Alto_Networks>
+        rdf:type   foaf:Organization;
+        foaf:name  "Palo Alto Networks";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#ProCircular>
+        rdf:type   foaf:Organization;
+        foaf:name  "ProCircular";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#OWASP_Foundation>
+        rdf:type   foaf:Organization;
+        foaf:name  "OWASP Foundation";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Cypfer>
+        rdf:type   foaf:Organization;
+        foaf:name  "Cypfer";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Exeter_Finance_LLC>
+        rdf:type   foaf:Organization;
+        foaf:name  "Exeter Finance LLC";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Tyson_Foods_Inc.>
+        rdf:type   foaf:Organization;
+        foaf:name  "Tyson Foods Inc.";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Recorded_Future>
+        rdf:type   foaf:Organization;
+        foaf:name  "Recorded Future";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Synack>
+        rdf:type   foaf:Organization;
+        foaf:name  "Synack";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#VicOne>
+        rdf:type   foaf:Organization;
+        foaf:name  "VicOne";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Sequoia>
+        rdf:type   foaf:Organization;
+        foaf:name  "Sequoia";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#SquareX>
+        rdf:type   foaf:Organization;
+        foaf:name  "SquareX";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#DeciSym.AI>
+        rdf:type   foaf:Organization;
+        foaf:name  "DeciSym.AI";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#GroupSense>
+        rdf:type   foaf:Organization;
+        foaf:name  "GroupSense";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Trendyol_Group>
+        rdf:type   foaf:Organization;
+        foaf:name  "Trendyol Group";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Muslim_Koser>
+        rdf:type        foaf:Person;
+        foaf:name       "Muslim Koser";
+        foaf:firstName  "Muslim";
+        foaf:lastName   "Koser";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Muslim_Koser_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Muslim_Koser_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Muslim_Koser>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Fortinet>;
+        org:role          "Vice President , Engineering EASM" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zach_Malinich>
+        rdf:type        foaf:Person;
+        foaf:name       "Zach Malinich";
+        foaf:firstName  "Zach";
+        foaf:lastName   "Malinich";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zach_Malinich_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zach_Malinich_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zach_Malinich>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zach_Malinich_org>;
+        org:role          "Professional Lurker" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zach_Malinich_org>
+        rdf:type   foaf:Organization;
+        foaf:name  "Professional Lurker";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Kevin_Dela_Rosa>
+        rdf:type        foaf:Person;
+        foaf:name       "Kevin Dela Rosa";
+        foaf:firstName  "Kevin";
+        foaf:lastName   "Dela Rosa";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Kevin_Dela_Rosa_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Kevin_Dela_Rosa_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Kevin_Dela_Rosa>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Cloudglue>;
+        org:role          "Co-founder & CTO" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Sinwindie>
+        rdf:type        foaf:Person;
+        foaf:name       "Sinwindie";
+        foaf:firstName  "Sinwindie";
+        foaf:lastName   "" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Apurv_Singh_Gautam>
+        rdf:type        foaf:Person;
+        foaf:name       "Apurv Singh Gautam";
+        foaf:firstName  "Apurv";
+        foaf:lastName   "Singh Gautam";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Apurv_Singh_Gautam_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Apurv_Singh_Gautam_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Apurv_Singh_Gautam>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Cyble>;
+        org:role          "Sr. Threat Research Analyst" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Vladimir_Tokarev>
+        rdf:type        foaf:Person;
+        foaf:name       "Vladimir Tokarev";
+        foaf:firstName  "Vladimir";
+        foaf:lastName   "Tokarev";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Vladimir_Tokarev_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Vladimir_Tokarev_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Vladimir_Tokarev>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Microsoft>;
+        org:role          "Senior Security Researcher" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Daniel_Schwalbe>
+        rdf:type        foaf:Person;
+        foaf:name       "Daniel Schwalbe";
+        foaf:firstName  "Daniel";
+        foaf:lastName   "Schwalbe";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Daniel_Schwalbe_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Daniel_Schwalbe_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Daniel_Schwalbe>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#DomainTools>;
+        org:role          "Head of Investigations" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Ram_Ganesh>
+        rdf:type        foaf:Person;
+        foaf:name       "Ram Ganesh";
+        foaf:firstName  "Ram";
+        foaf:lastName   "Ganesh" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Master_Chen>
+        rdf:type        foaf:Person;
+        foaf:name       "Master Chen";
+        foaf:firstName  "Master";
+        foaf:lastName   "Chen";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Master_Chen_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Master_Chen_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Master_Chen>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Master_Chen_org>;
+        org:role          "Student of LIfe. Teacher of Shaolin." .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Master_Chen_org>
+        rdf:type   foaf:Organization;
+        foaf:name  "Student of LIfe. Teacher of Shaolin.";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Mohamed_Nabeel>
+        rdf:type        foaf:Person;
+        foaf:name       "Mohamed Nabeel";
+        foaf:firstName  "Mohamed";
+        foaf:lastName   "Nabeel";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Mohamed_Nabeel_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Mohamed_Nabeel_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Mohamed_Nabeel>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Palo_Alto_Networks>;
+        org:role          "Principal Security Researcher" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Ryan_Bonner>
+        rdf:type        foaf:Person;
+        foaf:name       "Ryan Bonner";
+        foaf:firstName  "Ryan";
+        foaf:lastName   "Bonner";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Ryan_Bonner_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Ryan_Bonner_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Ryan_Bonner>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#ProCircular>;
+        org:role          "Senior Security Consultant" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Jeff_Foley>
+        rdf:type        foaf:Person;
+        foaf:name       "Jeff Foley";
+        foaf:firstName  "Jeff";
+        foaf:lastName   "Foley";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Jeff_Foley_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Jeff_Foley_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Jeff_Foley>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#OWASP_Foundation>;
+        org:role          "Amass Project Leader" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Evgueni_Erchov>
+        rdf:type        foaf:Person;
+        foaf:name       "Evgueni Erchov";
+        foaf:firstName  "Evgueni";
+        foaf:lastName   "Erchov";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Evgueni_Erchov_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Evgueni_Erchov_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Evgueni_Erchov>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Cypfer>;
+        org:role          "Sr Director of Research & Threat Intel" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Ankit_Gupta>
+        rdf:type        foaf:Person;
+        foaf:name       "Ankit Gupta";
+        foaf:firstName  "Ankit";
+        foaf:lastName   "Gupta";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Ankit_Gupta_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Ankit_Gupta_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Ankit_Gupta>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Exeter_Finance_LLC>;
+        org:role          "Senior Security Engineer" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Shilpi_Mittal>
+        rdf:type        foaf:Person;
+        foaf:name       "Shilpi Mittal";
+        foaf:firstName  "Shilpi";
+        foaf:lastName   "Mittal";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Shilpi_Mittal_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Shilpi_Mittal_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Shilpi_Mittal>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Tyson_Foods_Inc.>;
+        org:role          "" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zoey_Selman>
+        rdf:type        foaf:Person;
+        foaf:name       "Zoey Selman";
+        foaf:firstName  "Zoey";
+        foaf:lastName   "Selman";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zoey_Selman_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zoey_Selman_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Zoey_Selman>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Recorded_Future>;
+        org:role          "Threat Intelligence Analyst" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Rohit_Grover>
+        rdf:type        foaf:Person;
+        foaf:name       "Rohit Grover";
+        foaf:firstName  "Rohit";
+        foaf:lastName   "Grover" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Charles_Waterhouse>
+        rdf:type        foaf:Person;
+        foaf:name       "Charles Waterhouse";
+        foaf:firstName  "Charles";
+        foaf:lastName   "Waterhouse";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Charles_Waterhouse_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Charles_Waterhouse_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Charles_Waterhouse>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Synack>;
+        org:role          "Sr Security Analyst" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Kumar_Ashwin>
+        rdf:type        foaf:Person;
+        foaf:name       "Kumar Ashwin";
+        foaf:firstName  "Kumar";
+        foaf:lastName   "Ashwin" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Reuel_Magistrado>
+        rdf:type        foaf:Person;
+        foaf:name       "Reuel Magistrado";
+        foaf:firstName  "Reuel";
+        foaf:lastName   "Magistrado";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Reuel_Magistrado_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Reuel_Magistrado_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Reuel_Magistrado>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#VicOne>;
+        org:role          "Auto Threat Researcher" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Michael_Portera>
+        rdf:type        foaf:Person;
+        foaf:name       "Michael Portera";
+        foaf:firstName  "Michael";
+        foaf:lastName   "Portera";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Michael_Portera_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Michael_Portera_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Michael_Portera>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Sequoia>;
+        org:role          "VP Cyber Solutions" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Nishant_Sharma>
+        rdf:type        foaf:Person;
+        foaf:name       "Nishant Sharma";
+        foaf:firstName  "Nishant";
+        foaf:lastName   "Sharma";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Nishant_Sharma_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Nishant_Sharma_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Nishant_Sharma>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#SquareX>;
+        org:role          "Head of Cybersecurity Research" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Shourya_Pratap_Singh>
+        rdf:type        foaf:Person;
+        foaf:name       "Shourya Pratap Singh";
+        foaf:firstName  "Shourya";
+        foaf:lastName   "Pratap Singh";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Shourya_Pratap_Singh_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Shourya_Pratap_Singh_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Shourya_Pratap_Singh>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#SquareX>;
+        org:role          "Principal Software Engineer" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Donald_Pellegrino>
+        rdf:type        foaf:Person;
+        foaf:name       "Donald Pellegrino";
+        foaf:firstName  "Donald";
+        foaf:lastName   "Pellegrino";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Donald_Pellegrino_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Donald_Pellegrino_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Donald_Pellegrino>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#DeciSym.AI>;
+        org:role          "CEO & Founder" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#John_Dilgen>
+        rdf:type        foaf:Person;
+        foaf:name       "John Dilgen";
+        foaf:firstName  "John";
+        foaf:lastName   "Dilgen";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#John_Dilgen_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#John_Dilgen_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#John_Dilgen>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#John_Dilgen_org>;
+        org:role          "Threat Intel Analyst" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#John_Dilgen_org>
+        rdf:type   foaf:Organization;
+        foaf:name  "Threat Intel Analyst";
+        rdf:type   foaf:Organization .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Sean_Jones>
+        rdf:type        foaf:Person;
+        foaf:name       "Sean Jones";
+        foaf:firstName  "Sean";
+        foaf:lastName   "Jones";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Sean_Jones_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Sean_Jones_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Sean_Jones>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#GroupSense>;
+        org:role          "Sr. Manager of Threat Intelligence" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Kaloyan_Ivanov>
+        rdf:type        foaf:Person;
+        foaf:name       "Kaloyan Ivanov";
+        foaf:firstName  "Kaloyan";
+        foaf:lastName   "Ivanov" .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Özgün_Kültekin>
+        rdf:type        foaf:Person;
+        foaf:name       "Özgün Kültekin";
+        foaf:firstName  "Özgün";
+        foaf:lastName   "Kültekin";
+        org:holds       <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Özgün_Kültekin_membership> .
+
+<file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Özgün_Kültekin_membership>
+        rdf:type          org:Membership;
+        org:member        <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Özgün_Kültekin>;
+        org:organization  <file:///home/user/projects/decisym_defcon33/tests/output/speakers_affiliations_foaf.rdf#Trendyol_Group>;
+        org:role          "Offensive Security Engineer" .

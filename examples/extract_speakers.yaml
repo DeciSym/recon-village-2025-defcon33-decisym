@@ -1,0 +1,26 @@
+# Configuration for extracting speakers from conference HTML
+api_url: "http://localhost:8000/v1"
+model: "Qwen/Qwen3-30B-A3B-Instruct-2507"
+
+# Chat format for structured extraction
+messages:
+  - role: "system"
+    content: |
+      You are an expert at extracting structured information from HTML content.
+      You extract names of speakers from conference websites.
+      Output only valid JSON without any explanation or additional text.
+  - role: "user"
+    content: |
+      Extract all speaker names from the conference content below.
+      Output as a JSON array containing only the names.
+      Do not include titles, affiliations, or other information.
+      Example output: ["John Doe", "Jane Smith", "Alex Johnson"]
+
+# Generation parameters optimized for extraction
+max_tokens: 4096
+temperature: 0.0  # Deterministic output
+top_p: 1.0
+seed: 42  # For reproducible results
+
+# Longer timeout for processing large documents
+timeout_seconds: 1200
